@@ -26,6 +26,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+.*  # ignore all hidden files and folders
+!/.gitignore  # explicitly do not ignore .gitignore
+*/.ipynb_checkpoints/*.ipynb
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
